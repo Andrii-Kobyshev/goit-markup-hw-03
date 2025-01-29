@@ -3,6 +3,13 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
 .page-header .page-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -11,7 +18,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; 
 }
 .page-header .page-logo .web {
   color: #2e2f42;
@@ -58,6 +65,9 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  padding-bottom: 48px;
+  width: 496px;
+  margin: 0 auto;
 }
 .main-section .page-button {
   color: #fff;
@@ -68,6 +78,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
 }
 .main-section .page-button:hover,
 .main-section .page-button:focus {
@@ -79,6 +94,10 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-bottom: 72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .title {
   color: #2e2f42;
@@ -93,7 +112,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
+
 .our-team {
   background-color: #f4f4fd;
 }
@@ -105,6 +126,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-bottom: 72px;
 }
 .our-team .list {
   background-color: #FFFFFF;
@@ -131,6 +153,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-bottom: 72px;
 }
 .portfolio .title {
   color: #2e2f42;
@@ -169,7 +192,44 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  padding-top: 16px;
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+.container-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.cont-main {
+  background-color: #2e2f42;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
